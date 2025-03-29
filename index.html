@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>자기소개</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      height: 100vh;
+      background-image: url('your-image.jpg'); /* 배경 이미지 */
+      background-size: cover;
+      background-position: center;
+      font-family: Arial, sans-serif;
+    }
+
+    .content {
+      text-align: center;
+      color: white;
+      font-size: 2rem;
+      padding-top: 20%;
+    }
+
+    h1 {
+      font-size: 3rem;
+      transition: transform 0.5s ease, color 0.3s ease;
+    }
+
+    h1:hover {
+      transform: scale(1.2);
+      color: #ff6347; /* 마우스 오버 시 텍스트 색과 크기 변화 */
+    }
+  </style>
+</head>
+<body>
+  <div class="content">
+    <h1>안녕하세요!</h1>
+    <p>저는 웹 개발을 공부하는 학생입니다.</p>
+  </div>
+  
+  <!-- 오디오 자동 재생 -->
+  <audio autoplay>
+    <source src="your-audio-file.mp3" type="audio/mp3">
+    이 브라우저는 오디오를 지원하지 않습니다.
+  </audio>
+</body>
+</html>
